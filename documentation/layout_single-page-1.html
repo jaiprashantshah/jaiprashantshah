@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Cloud Freelancer & Agency Portfolio Template Documentation</title>
+
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+  </head>
+
+  <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+    <header class="site-header navbar-transparent">
+
+      <!-- Top navbar & branding -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+
+          <!-- Toggle buttons and brand -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="glyphicon glyphicon-option-vertical"></span>
+            </button>
+            <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><strong>Cloud</strong></a>
+          </div>
+          <!-- END Toggle buttons and brand -->
+
+          <!-- Top navbar -->
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="mailto:support@tavillathemes.com">Support</a></li>
+              <li class="hero"><a href="http://themeforest.net/item/thedocs-online-documentation-template/13070884?license=regular&open_purchase_for_item_id=13070884&purchasable=source&ref=thethemeio">Purchase</a></li>
+            </ul>
+          </div>
+          <!-- END Top navbar -->
+
+        </div>
+      </nav>
+      <!-- END Top navbar & branding -->
+
+      <!-- Banner -->
+      <div class="banner auto-size" style="background-color: #7cc9db">
+        <div class="container text-white">
+          <h1><strong>Cloud Template</strong> documentation</h1>
+          <h5>You can see an example of a banner in top of this page. Following code is the code for this banner.</h5>
+        </div>
+      </div>
+      <!-- END Banner -->
+
+    </header>
+
+
+
+    <main class="container">
+      <div class="row">
+
+        <!-- SIDEBAR -->
+        <aside class="col-sm-3 sidebar">
+
+          <ul class="nav sidenav dropable sticky">
+            <li><a href="#html-structure">HTML Structure</a>
+                <ul>
+                    <li><a href="#headers">Headers</a></li>
+                    <li><a href="#footers">Footers</a></li>
+                </ul>  
+            </li>
+            <li><a href="#css">Css Structure</a></li>
+            
+            <li><a href="#javascript"> Javascript Files</a></li>
+          </ul>
+
+        </aside>
+        <!-- END Sidebar -->
+
+
+        <!-- Main content -->
+        <article class="col-sm-9 main-content" role="main">
+            <p>Cloud Freelancer & Agency Portfolio Template is a portfolio focus html template. It provides responsive clean and creative html template for your creative portfolio web sites. You can use this portfolio template for: agency, personal portfolio, architect agency, freelancer, photography studios, sound and music, musican, painter portfolio, artworks, art, artist portfolio, web design works, illustrators, trainer, projects, freelance designer. You can find this template suitable for their needs. Thank you so much!</p>
+
+          <section>
+            <h2 id="html-structure">HTML Structure</h2>
+            <p>We are used Bootstrap3 framework in this template. The general template structure is the same throughout the template. Here is the general structure.</p>
+
+             
+<pre class="line-numbers"><code class="language-markup">
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Cloud Freelancer & Agency Portfolio Template&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="description" content="Cloud Freelancer & Agency Portfolio Template"&gt;
+    &lt;meta name="keywords" content="personal, portfolio, agency"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;!-- Favicon --&gt;
+    &lt;link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /&gt;
+    &lt;!-- Stylesheets --&gt;
+    &lt;link rel="stylesheet" href="css/bootstrap.css" /&gt;
+    &lt;link rel="stylesheet" href="css/reset.css" /&gt;
+    &lt;link rel="stylesheet" href="css/owl.theme.css" /&gt;
+    &lt;link rel="stylesheet" href="css/owl.carousel.css" /&gt;
+    &lt;link rel="stylesheet" href="css/style.css" /&gt;
+    &lt;link rel="stylesheet" href="css/color.css" /&gt;
+    &lt;!-- Google Web fonts --&gt;
+    &lt;link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"&gt;
+    &lt;!-- Font icons --&gt;
+    &lt;link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css" /&gt;
+    &lt;link rel="stylesheet" href="icon-fonts/web-design/flaticon.css" /&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class="wrapper"&gt;
+        &lt;!-- HEADER --&gt;
+        &lt;header&gt;
+            ...
+        &lt;/header&gt;
+        &lt;!-- HOME --&gt;
+        &lt;div class="home"&gt;
+            &lt;div class="container"&gt;
+                ...
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- ABOUT --&gt;
+        &lt;section class="about type-1 vertiqal top_90 "&gt;
+            &lt;div class="container"&gt;
+                ...
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!-- PORTFOLIO --&gt;
+        &lt;section class="portfolio type-1 top_120"&gt;
+            &lt;div class="container"&gt;
+                ...
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!-- BLOG --&gt;
+        &lt;section class="blog type-1 standart top_30 bottom_120"&gt;
+            &lt;div class="container"&gt;
+                ...
+            &lt;/div&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;
+    &lt;!-- FOOTER --&gt;
+    &lt;footer class="type-1"&gt;
+        &lt;div class="container"&gt;
+            ...
+        &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;!-- Javascripts --&gt;
+    &lt;script src="js/jquery-1.12.4.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/main.js"&gt;&lt;/script&gt;
+    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/parallax.js"&gt;&lt;/script&gt;
+    &lt;script src="js/isotope.pkgd.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/typed.js"&gt;&lt;/script&gt;
+    &lt;script src="js/owl.carousel.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</code></pre>
+              <br/><br/>
+             <h5>25 Html Pages</h5> 
+              <br/>
+              <ol>
+                <li>Home-01.html</li>
+                <li>Home-02.html</li>
+                <li>Home-03.html</li>
+                <li>Home-04.html</li>
+                <li>Home-05.html</li>
+                <li>Home-06.html</li>
+                <li>Home-07.html</li>
+                <li>About Agency</li>
+                <li>About Personal</li>
+                <li>Portfolio Grid</li>
+                <li>Portfolio Detail 1</li>
+                <li>Portfolio Detail 2</li>
+                <li>Portfolio Detail 3</li>
+                <li>Portfolio Detail 4</li>
+                <li>Portfolio Detail 5</li>
+                <li>Portfolio Detail 6</li>
+                <li>Portfolio Detail 7</li>
+                <li>Blog Grid Version</li>
+                <li>Blog Full Version</li>
+                <li>Single Blog 1</li>
+                <li>Single Blog 2</li>
+                <li>Single Blog 3</li>
+                <li>Contact Standart </li>
+                <li>Contact Alternative</li>
+            </ol>
+
+          </section>
+
+         <!-- HEADERS -->
+          <section>
+            <h2 id="headers">Headers</h2>
+              <p>This design offers 2 header alternatives. You can choose to use the header you like.Below are the headers and codes. You can use them by copying them.</p>
+              <br/>
+              <img src="assets/img/header-1.png" alt="" width="100%">
+              
+              <br/><br/><br/>
+             <h5>Header Radius Bar Version</h5> <br/>
+              <pre class="line-numbers">
+              <code class="language-markup">                    
+        &lt;header&gt;
+             &lt;div class="container"&gt;
+                    &lt;!-- Navigasyon Bar --&gt;
+                    &lt;div class="navbar radius-nav"&gt;
+                        &lt;div class="row"&gt;
+                            &lt;!-- Hire Me --&gt;
+                            &lt;a  data-toggle="tooltip" data-placement="top" title="Hire Me!" class="col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm pull-right send-mail" href="mailto:cloud@tavillathemes.com"&gt;
+                                &lt;i class="fa fa-paper-plane-o" aria-hidden="true"&gt;&lt;/i&gt;
+                            &lt;/a&gt;
+                            &lt;div class="col-md-5 col-sm-10 col-xs-9 navbar-left"&gt;
+                                &lt;!-- logo --&gt;
+                                &lt;div class="logo"&gt;&lt;img src="images/logo.jpg" alt="logo"&gt;John Sigman &lt;/div&gt;
+                                &lt;!-- Social Icons --&gt;
+                                &lt;div class="hidden-xs social-icons"&gt; 
+                                    &lt;a class="fb" href="#"&gt;&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="tw" href="#"&gt;&lt;i class="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="ins" href="#"&gt;&lt;i class="fa fa-instagram" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="bh" href="#"&gt;&lt;i class="fa fa-behance" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="dr" href="#"&gt;&lt;i class="fa fa-dribbble" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;!-- responsive menu --&gt;
+                            &lt;div class="hidden-lg hidden-md col-sm-1 col-xs-3 pull-right rspbtn"&gt;
+                                &lt;button data-toggle="collapse" data-target=".collnav"&gt;
+                                    &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-md-6 col-sm-12 col-xs-12 navbar-right"&gt;
+                                &lt;!-- Nav Menu --&gt;
+                                &lt;nav class="collnav collapse"&gt;
+                                    &lt;ul class="nav nav-pills"&gt;
+                                        &lt;li class="dropdown"&gt; &lt;a class="dropdown-toggle"&gt;Home&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="home-01.html"&gt;Standart Home&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-02.html"&gt;One Page Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-03.html"&gt;Multipage Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-04.html"&gt;Video Background&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-05.html"&gt;Grid Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-06.html"&gt;Full Page Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-07.html"&gt;Standard Grid&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;About&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="about-agency.html"&gt;About Agency&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="about-personal.html"&gt;About Personal&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Portfolio&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="home-07.html"&gt;Portfolio Grid&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="dropdown-submenu"&gt;&lt;a&gt;Portfolio Detail Pages&lt;/a&gt;
+                                                    &lt;!-- submenu --&gt;
+                                                    &lt;ul class="dropdown-menu"&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-1.html"&gt;Standart Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-2.html"&gt;Masonry Lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-3.html"&gt;Grid Lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-4.html"&gt;No gutter lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-5.html"&gt;Slider Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-6.html"&gt;Alternative Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-7.html"&gt;Mobile Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-8.html"&gt;Mobile Version 2&lt;/a&gt;&lt;/li&gt;
+                                                    &lt;/ul&gt;
+                                                &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Blog&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="blogs-grid.html"&gt;Blog Grid&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="blogs-full.html"&gt;Blog Full Page&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="dropdown-submenu"&gt;&lt;a&gt;Single Blogs&lt;/a&gt;
+                                                    &lt;!-- submenu --&gt;
+                                                    &lt;ul class="dropdown-menu"&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog.html"&gt;Single Blog 1&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog-two.html"&gt;Single Blog 2&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog-three.html"&gt;Single Blog 3&lt;/a&gt;&lt;/li&gt;
+                                                    &lt;/ul&gt;
+                                                &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Contact&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="contact-2.html"&gt;Contact Standart&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="contact-1.html"&gt;Contact Alternative&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/nav&gt;
+                            &lt;/div&gt;                             
+                        &lt;/div&gt;
+                    &lt;/div&gt; &lt;!-- navbar end --&gt;
+            &lt;/div&gt; &lt;!-- container end --&gt;
+        &lt;/header&gt;
+              </code>
+              </pre>
+              <br/>
+              <h5>Header Full Version</h5> <br/>
+              <img src="assets/img/header-2.png" alt="" width="100%"><br/><br/>
+              
+              <pre class="line-numbers"><code class="language-markup">
+                      &lt;header&gt;
+             &lt;div class="container-fluid"&gt;
+                    &lt;!-- Navigasyon Bar --&gt;
+                    &lt;div class="navbar full-nav"&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-md-5 col-sm-10 col-xs-9 navbar-left"&gt;
+                                &lt;!-- logo --&gt;
+                                &lt;a href="#" class="logo"&gt;&lt;img src="images/logo-2.png" alt="logo"&gt;&lt;/a&gt;
+                                &lt;!-- Social Icons --&gt;
+                                &lt;div class="hidden-xs social-icons"&gt; 
+                                    &lt;a class="fb" href="#"&gt;&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="tw" href="#"&gt;&lt;i class="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="ins" href="#"&gt;&lt;i class="fa fa-instagram" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="bh" href="#"&gt;&lt;i class="fa fa-behance" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                    &lt;a class="dr" href="#"&gt;&lt;i class="fa fa-dribbble" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;!-- responsive menu --&gt;
+                            &lt;div class="hidden-lg hidden-md col-sm-1 col-xs-3 pull-right rspbtn"&gt;
+                                &lt;button data-toggle="collapse" data-target=".collnav"&gt;
+                                    &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-md-6 col-sm-12 col-xs-12 navbar-right"&gt;
+                                &lt;!-- Hire Me --&gt;
+                                &lt;a class="col-md-1 hidden-xs hidden-sm pull-right send-mail" href="mailto:cloud@tavillathemes.com"&gt;
+                                    &lt;i class="fa fa-paper-plane-o" aria-hidden="true"&gt;&lt;/i&gt;
+                                &lt;/a&gt;
+                                &lt;!-- Nav Menu --&gt;
+                                &lt;nav class="collnav collapse"&gt;
+                                    &lt;ul class="nav nav-pills"&gt;
+                                        &lt;li class="dropdown"&gt; &lt;a class="dropdown-toggle"&gt;Home&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="home-01.html"&gt;Standart Home&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-02.html"&gt;One Page Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-03.html"&gt;Multipage Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-04.html"&gt;Video Background&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-05.html"&gt;Grid Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-06.html"&gt;Full Page Version&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="home-07.html"&gt;Standard Grid&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;About&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="about-agency.html"&gt;About Agency&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="about-personal.html"&gt;About Personal&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Portfolio&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="home-07.html"&gt;Portfolio Grid&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="dropdown-submenu"&gt;&lt;a&gt;Portfolio Detail Pages&lt;/a&gt;
+                                                    &lt;!-- submenu --&gt;
+                                                    &lt;ul class="dropdown-menu"&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-1.html"&gt;Standart Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-2.html"&gt;Masonry Lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-3.html"&gt;Grid Lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-4.html"&gt;No gutter lightbox&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-5.html"&gt;Slider Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-6.html"&gt;Alternative Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-7.html"&gt;Mobile Version&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="work-detail-8.html"&gt;Mobile Version 2&lt;/a&gt;&lt;/li&gt;
+                                                    &lt;/ul&gt;
+                                                &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Blog&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="blogs-grid.html"&gt;Blog Grid&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="blogs-full.html"&gt;Blog Full Page&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="dropdown-submenu"&gt;&lt;a&gt;Single Blogs&lt;/a&gt;
+                                                    &lt;!-- submenu --&gt;
+                                                    &lt;ul class="dropdown-menu"&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog.html"&gt;Single Blog 1&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog-two.html"&gt;Single Blog 2&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href="single-blog-three.html"&gt;Single Blog 3&lt;/a&gt;&lt;/li&gt;
+                                                    &lt;/ul&gt;
+                                                &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="dropdown"&gt;&lt;a&gt;Contact&lt;/a&gt;
+                                            &lt;!-- submenu --&gt;
+                                            &lt;ul class="dropdown-menu"&gt;
+                                                &lt;li&gt;&lt;a href="contact-2.html"&gt;Contact Standart&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="contact-1.html"&gt;Contact Alternative&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/nav&gt;
+                            &lt;/div&gt;                             
+                        &lt;/div&gt;
+                    &lt;/div&gt; &lt;!-- navbar end --&gt;
+
+            &lt;/div&gt; &lt;!-- container end --&gt;
+        &lt;/header&gt;       
+              </code>
+              </pre>
+          </section>
+            
+            <section>
+                <h2 id="footers">Footers</h2>
+              <p>This design offers 2 footer alternatives. You can choose to use the header you like.Below are the headers and codes. You can use them by copying them.</p>
+              <br/>
+              <h5>Footer Simple Version</h5> <br/>
+              <img src="assets/img/footer-1.png" alt="" width="100%"><br/><br/>
+               <pre class="line-numbers"><code class="language-markup">
+                    &lt;footer class="type-1"&gt;
+        &lt;div class="footer-top"&gt;
+            &lt;div class="container"&gt; 
+                &lt;span class="name"&gt;John Sigman.&lt;/span&gt;
+                &lt;ul class="menu"&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="footer-bottom"&gt;
+            &lt;div class="container"&gt;
+                &lt;ul class="footer-social"&gt;
+                    &lt;li&gt;&lt;a class="fb" href="#"&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="tw" href="#"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="ins" href="#"&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="bh" href="#"&gt;Behance&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="dr" href="#"&gt;Dribbble&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;span class="copyright"&gt;Copyright 2017 All right reserved. Development by &lt;a href="#"&gt;TavillaThemes&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+               </code>
+               </pre>
+               <br/>
+              <h5>Footer Widget Version</h5> <br/>
+              <img src="assets/img/footer-2.png" alt="" width="100%"><br/><br/>
+               <pre class="line-numbers"><code class="language-markup"> 
+                        &lt;footer class="type-2"&gt;
+        &lt;div class="container-fluid"&gt;
+            &lt;div class="footer-top"&gt;
+                &lt;!-- About Widget --&gt;
+                &lt;div class="col-md-3 col-sm-6 col-xs-12"&gt;
+                    &lt;h6&gt;About Us&lt;/h6&gt; 
+                    &lt;p class="top_30"&gt;Mind what no by kept. Celebrated no he decisively thoroughly. Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- Twitter Feed --&gt;
+                &lt;div class="col-md-3 col-sm-6 col-xs-12 posts"&gt;
+                    &lt;h6&gt;Twitter Feeds&lt;/h6&gt; 
+                    &lt;ul class="top_30"&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.&lt;/p&gt; &lt;span&gt;Steven K. Leamon - May 2, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt; &lt;span&gt;Christopher M. Berryman - April 30, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt; &lt;span&gt;Mary R. Thomas - April 23, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;!-- Get In Touch --&gt;
+                &lt;div class="col-md-3 col-sm-6 col-xs-12 touch"&gt;
+                    &lt;h6&gt;Get In Touch&lt;/h6&gt; 
+                    &lt;ul class="top_30"&gt;
+                        &lt;li&gt;&lt;i class="fa fa-map-marker" aria-hidden="true"&gt;&lt;/i&gt;&lt;p&gt;107727 Santa Monica Bouleard Los Angeles, California 90025-4718 United States of America&lt;/p&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;i class="fa fa-phone" aria-hidden="true"&gt;&lt;/i&gt;&lt;p&gt;0987 542 52 54&lt;/p&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;i class="fa fa-envelope-o" aria-hidden="true"&gt;&lt;/i&gt;&lt;p&gt;hi@johnsigman.com &lt;br/&gt; support@johnsigman.com&lt;/p&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;!-- Recent Posts --&gt;
+                &lt;div class="col-md-3 col-sm-6 col-xs-12 posts"&gt;
+                    &lt;h6&gt;Recent Posts&lt;/h6&gt; 
+                    &lt;ul class="top_30"&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.&lt;/p&gt; &lt;span&gt;Steven K. Leamon - May 2, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt; &lt;span&gt;Christopher M. Berryman - April 30, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt; &lt;span&gt;Mary R. Thomas - April 23, 2017&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-bottom row"&gt;
+                &lt;p class="pull-left"&gt;Cloud Portfolio Template.  All rights Reserved.  Copyright © 2017 &lt;/p&gt;
+                &lt;div class="hidden-xs social-icons pull-right"&gt; 
+                    &lt;a class="fb" href="#"&gt;&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                    &lt;a class="tw" href="#"&gt;&lt;i class="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                    &lt;a class="ins" href="#"&gt;&lt;i class="fa fa-instagram" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                    &lt;a class="bh" href="#"&gt;&lt;i class="fa fa-behance" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                    &lt;a class="dr" href="#"&gt;&lt;i class="fa fa-dribbble" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; &lt;!-- container end --&gt;
+    &lt;/footer&gt;
+                </code>
+                </pre>
+            </section>
+            
+            <section>
+                  <h2 id="css">Css Structure</h2>
+              <p>Css organized in a list. You can easily find and edit the part you want. </p>
+                <br/><br/>
+            <h5>Table of Content</h5> <br/>
+<ul>
+<li>1. Body and Core Css</li>
+<li>2. Header</li>
+<li>3. Home Section</li>
+<li>4. About</li>
+<li>5. Portfolio</li>
+<li>6. Portfolio Detail</li>
+<li>7. Team</li>
+<li>8. Blog</li>
+<li>9. Clients</li>
+<li>10. Contact</li>
+<li>11. Footer</li>
+<li>12. Responsive</li>
+</ul>
+
+            </section>
+            
+            <section>
+            
+                <h2 id="javascript">Javascript</h2>
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-folder open">js
+                            <ul>
+                                <li class="is-file">bootstrap.min.js</li>
+                                <li class="is-file">isotope.pkgd.min.js</li>
+                                <li class="is-file">jquery-1.12.4.min.js</li>
+                                <li class="is-file">jquery.magnific-popup.min.js</li>
+                                <li class="is-file">main.js</li>
+                                <li class="is-file">owl.carousel.min.js</li>
+                                <li class="is-file">parallax.js</li>
+                                <li class="is-file">typed.js</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">bootstrap.min.js</li>
+                    </ul>
+                </div>
+                <p>Standart Bootstrap Library</p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">isotope.pkgd.min.js</li>
+                    </ul>
+                </div>
+                <p>a plugin for portfolio masonry and filter features   </p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">jquery-1.12.4.min.js</li>
+                    </ul>
+                </div>
+                <p>Standart Jquery Library </p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">jquery.magnific-popup.min.js</li>
+                    </ul>
+                </div>
+                <p> This plugin for portfolio lightbox gallery </p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">main.js</li>
+                    </ul>
+                </div>
+                <p> Template javascript library</p>
+                 <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">owl.carousel.min.js</li>
+                    </ul>
+                </div>
+                <p> Template sliders library</p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">parallax.js</li>
+                    </ul>
+                </div>
+                <p>This plugin for parallax clouds</p>
+                <br/> 
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-file">typed.js</li>
+                    </ul>
+                </div>
+                <p>This plugin for typed of home page </p>
+            </section>
+          
+        </article>
+        <!-- END Main content -->
+      </div>
+    </main>
+      
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <p>Copyright &copy; 2017. All right reserved</p>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <ul class="footer-menu">
+              <li><a href="https://themeforest.net/user/tavillathemes/portfolio">TavillaThemes</a></li>
+              <li><a href="mailto:hi@tavillathemes.com">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer -->
+
+    <!-- Scripts -->
+    <script src="assets/js/theDocs.all.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
